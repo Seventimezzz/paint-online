@@ -1,8 +1,17 @@
 import React from "react";
-import "./App.css";
+
+import ToolBar from "./components/Toolbar";
+import SettingsBar from "./components/SettingBar";
+import Canvas from "./components/Canvas";
 
 function App() {
-  return <div></div>;
+  return (
+    <div className="app">
+      <ToolBar></ToolBar>
+      <SettingsBar></SettingsBar>
+      <Canvas></Canvas>
+    </div>
+  )
 }
 
 export default App;
